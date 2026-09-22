@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo oficial do Dark Souls III -->
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Dark_Souls_III_logo.png/1200px-Dark_Souls_III_logo.png" alt="Dark Souls III Logo" width="100%" style="max-width: 900px; margin-bottom: 30px;" />
+<img src="logo.png" alt="Dark Souls III Logo" width="100%" style="max-width: 900px; margin-bottom: 30px;" />
   
   <h3>A HISTÓRIA — Um mundo de sombras e cinzas criado por FromSoftware</h3>
   
