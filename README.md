@@ -1,6 +1,6 @@
-<!-- Banner Principal com a Imagem que você enviou -->
 <div align="center">
-  <img src="LINK_DA_SUA_IMAGEM_AQUI" alt="Dark Souls Logo" width="100%" style="max-width: 800px; margin-bottom: 20px;" />
+  <!-- Logo oficial do Dark Souls III -->
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Dark_Souls_III_logo.png/1200px-Dark_Souls_III_logo.png" alt="Dark Souls III Logo" width="100%" style="max-width: 900px; margin-bottom: 30px;" />
   
   <h3>A HISTÓRIA — Um mundo de sombras e cinzas criado por FromSoftware</h3>
   
@@ -78,14 +78,12 @@ Todas as ilustrações passaram por um processo de **High Contrast / Noir**, uti
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </div>
 
-*   **Front-end:** HTML5 semântico e CSS3 (Flexbox/Grid para o layout responsivo).
-*   **Interatividade:** Navegação entre páginas estáticas (pode ser evoluído para SPA com JS).
-*   **Design:** Prototipagem e edição de imagens.
+*   **Front-end:** HTML5 semântico e CSS3 (Flexbox e Grid para o layout responsivo).
+*   **Estilização:** CSS puro, sem frameworks ou bibliotecas externas.
+*   **Tipografia:** Google Fonts (Cinzel e Lato).
 *   **Versionamento:** Git e GitHub.
 
 ---
