@@ -1,2 +1,4 @@
 # dark_souls
-um trabalho meu de escola que é sobre dark souls, esses repositorios são um trabalho de dark soul mostrando e contando a historia de uma histora fantasiosa sombria
+This is my work on Dark Souls. Dark Souls is a closed-world RPG where your goal is to restore the flame, thus prolonging the Age of Fire.
+
+#praise the sun shine
