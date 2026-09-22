@@ -1,8 +1,8 @@
-<!-- Banner Principal -->
+<!-- Banner Principal com a Imagem que você enviou -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=DARK%20SOULS&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
+  <img src="LINK_DA_SUA_IMAGEM_AQUI" alt="Dark Souls Logo" width="100%" style="max-width: 800px; margin-bottom: 20px;" />
   
-  <h3>🌑 A HISTÓRIA — Um mundo de sombras e cinzas criado por FromSoftware</h3>
+  <h3>A HISTÓRIA — Um mundo de sombras e cinzas criado por FromSoftware</h3>
   
   <p align="center">
     <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-000000?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
@@ -24,7 +24,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 > *"No princípio, o mundo era informe, coberto por névoa e árvores gigantes. Mas então veio o Fogo, trazendo a Disparidade."*
 
@@ -33,47 +33,47 @@ Este projeto é uma **experiência web imersiva e narrativa** que reconta a lore
 O objetivo principal foi criar uma interface que simula a leitura de um **tomo antigo** ou um **menu de jogo**, utilizando navegação paginada, tipografia clássica e um tratamento de imagem monocromático de alto contraste.
 
 <div align="center">
+  <!-- Se você tiver um GIF do site funcionando, coloque aqui. Senão, pode remover esta linha -->
   <img src="https://raw.githubusercontent.com/seu-usuario/dark-souls-historia/main/assets/preview.gif" alt="Preview do Projeto" width="800px" />
 </div>
 
 ---
 
-## ⚔️ Funcionalidades
+## Funcionalidades
 
 O projeto está dividido em capítulos narrativos, cada um com sua própria identidade visual e conteúdo:
 
 | Capítulo | Descrição | Destaques |
 | :--- | :--- | :--- |
-| **🌑 Capa (A História)** | A introdução ao mundo e o convite para a jornada. | Hero section com ilustração de cavaleiro e botão "Próxima Página". |
-| **🔥 O Início da Chama** | A Era do Fogo e o surgimento dos Lords das Almas. | Galeria em grid 2x2 com retratos de Nito, Bruxa de Izalith, Gwyn e o Rei Caído. |
-| **💀 A Maldição dos Mortos-Vivos** | O declínio da Chama e o sacrifício de Gwyn. | Layout textual focado na leitura + imagem de cenário icônico (Anor Londo/Firelink). |
+| **Capa (A História)** | A introdução ao mundo e o convite para a jornada. | Hero section com ilustração de cavaleiro e botão "Próxima Página". |
+| **O Início da Chama** | A Era do Fogo e o surgimento dos Lords das Almas. | Galeria em grid 2x2 com retratos de Nito, Bruxa de Izalith, Gwyn e o Rei Caído. |
+| **A Maldição dos Mortos-Vivos** | O declínio da Chama e o sacrifício de Gwyn. | Layout textual focado na leitura + imagem de cenário icônico (Anor Londo/Firelink). |
+| **O Ciclo Eterno** | A decisão final do Escolhido e a inevitabilidade do ciclo. | Grid de ícones temáticos e texto de conclusão. |
 
 ---
 
-## 🎨 Design System
+## Design System
 
 Este projeto não usa apenas "cores", ele usa uma **atmosfera**. O Design System foi construído para evocar a solidão e a grandiosidade do jogo.
 
-### 🎨 Paleta de Cores
+### Paleta de Cores
 | Cor | Hex | Uso |
 | :---: | :---: | :--- |
-| ⬛ **Preto Profundo** | `#0A0A0A` | Fundo principal (Background) |
-| ⬜ **Branco Osso** | `#E5E5E5` | Títulos e Textos Principais |
-| 🔘 **Cinza Ardósia** | `#888888` | Subtítulos e Textos Secundários |
-| 🔲 **Cinza Carvão** | `#1A1A1A` | Bordas e Botões |
+| **Preto Profundo** | `#0A0A0A` | Fundo principal (Background) |
+| **Branco Osso** | `#E0E0E0` | Títulos e Textos Principais |
+| **Cinza Ardósia** | `#888888` | Subtítulos e Textos Secundários |
+| **Cinza Carvão** | `#1A1A1A` | Bordas e Botões |
 
-### 🔤 Tipografia
-*   **Títulos:** `Cinzel` ou `Trajan Pro` — *Serifada clássica, evoca inscrições antigas e épicas.*
-*   **Corpo:** `Inter` ou `Roboto` — *Sans-serif limpa para garantir legibilidade em blocos de texto densos.*
+### Tipografia
+*   **Títulos:** `Cinzel` — *Serifada clássica, evoca inscrições antigas e épicas.*
+*   **Corpo:** `Lato` — *Sans-serif limpa para garantir legibilidade em blocos de texto densos.*
 
-### 🖼️ Tratamento de Imagem
-Todas as ilustrações passaram por um processo de **High Contrast / Noir**, removendo cores e aplicando sombreamento denso (pontilhismo/dithering) para simular arte conceitual antiga ou gravuras.
+### Tratamento de Imagem
+Todas as ilustrações passaram por um processo de **High Contrast / Noir**, utilizando `filter: grayscale(100%) contrast(1.1)` para simular arte conceitual antiga ou gravuras.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
-
-Aqui está o stack tecnológico que deu vida a este projeto:
+## Tecnologias Utilizadas
 
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -84,21 +84,13 @@ Aqui está o stack tecnológico que deu vida a este projeto:
 </div>
 
 *   **Front-end:** HTML5 semântico e CSS3 (Flexbox/Grid para o layout responsivo).
-*   **Interatividade:** JavaScript puro (Vanilla JS) para a navegação entre páginas sem recarregamento.
-*   **Design:** Prototipagem no Figma e edição de imagens no Photoshop/GIMP.
+*   **Interatividade:** Navegação entre páginas estáticas (pode ser evoluído para SPA com JS).
+*   **Design:** Prototipagem e edição de imagens.
 *   **Versionamento:** Git e GitHub.
 
 ---
 
-## 📦 Instalação e Uso
-
-Para rodar este projeto localmente na sua máquina, siga os passos abaixo.
-
-### Pré-requisitos
-*   Navegador web moderno (Chrome, Firefox, Edge).
-*   Git instalado (opcional, para clonar o repositório).
-
-### Passo a Passo
+## Instalação e Uso
 
 1. **Clone o repositório:**
    ```bash
