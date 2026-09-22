@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #0a0a0a;
+    color: #cccccc;
+}
+
+.pagina {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    border-bottom: 1px solid #222222;
+}
+
+.bloco-esquerdo {
+    width: 40%;
+    background-color: #121212;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    border-right: 1px solid #222222;
+}
+
+.bloco-esquerdo-vazio {
+    width: 40%;
+    background-color: #121212;
+    border-right: 1px solid #222222;
+}
+
+.bloco-direito {
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+}
+/*tipografia para o textin*/
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: #888888;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: 300;
+}
+
+/* para os links de navegação entre as paginas*/
+.navegacao {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    width: 100%;
+}
+.navegacao a {
+    color: #e0e0e0;
+    text-decoration: none;
+    border: 1px solid #e0e0e0;
+    padding: 12px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+/* em relação as imagens */
+img {
+    display: block;
+    border: 2px solid #333333;
+    filter: grayscale(100%) contrast(1.1);
+    object-fit: cover;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* pagina 1 Imagem de Capa */
+.pagina-capa .bloco-direito {
+    padding: 0;
+}
+.pagina-capa .bloco-direito img {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    object-fit: cover;
+    border: none;
+    box-shadow: none;
+}
+
+/* pagina 2 Grade de Imagens */
+.grade-imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    justify-items: center;
+}
+.grade-imagens img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #444;
+}
+
+/* pagina 3 Imagem Larga */
+.pagina-pg3 .bloco-direito {
+    align-items: flex-start;
+    padding: 80px 100px;
+}
+.texto-topo {
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+.imagem-larga {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin: 0;
+    border: 1px solid #444;
+}
+
+/* pagina 4 Ícones */
+.pagina-pg4 .bloco-direito {
+    align-items: flex-start;
+    padding: 80px 100px;
+}
+.grade-icones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px 0;
+    width: 100%;
+}
+.item-icone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1rem;
+    color: #b0b0b0;
+    font-weight: 300;
+}
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    border: 1px solid #444444;
+    color: #e0e0e0;
+    flex-shrink: 0;
+}
+.texto-final {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.05rem;
+}
+
+/* adaptabilidade para aparelhos portateis */
+@media (max-width: 900px) {
+    .pagina { flex-direction: column; }
+    .bloco-esquerdo, .bloco-esquerdo-vazio, .bloco-direito { 
+        width: 100%; 
+        padding: 40px 20px; 
+        border-right: none;
+    }
+    .bloco-esquerdo-vazio { min-height: 200px; }
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.8rem; }
+    .grade-imagens, .grade-icones { grid-template-columns: 1fr; }
+    
+    .pagina-capa .bloco-direito img { height: 50vh; }
+    .grade-imagens img { height: 200px; }
+    .imagem-larga { height: 250px; }
+}
