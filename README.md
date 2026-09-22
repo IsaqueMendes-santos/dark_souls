@@ -1,8 +1,7 @@
 <div align="center">
-  <!-- Logo oficial do Dark Souls III -->
-<img src="logo.png" alt="Dark Souls III Logo" width="100%" style="max-width: 900px; margin-bottom: 30px;" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=DARK%20SOULS&fontSize=80&fontColor=ffffff&fontAlignY=40&animation=fadeIn&desc=A%20HIST%C3%93RIA&descAlignY=65&descSize=25&descColor=cccccc" width="100%" alt="Dark Souls Banner" />
   
-  <h3>A HISTÓRIA — Um mundo de sombras e cinzas criado por FromSoftware</h3>
+  <h3>Um mundo de sombras e cinzas criado por FromSoftware</h3>
   
   <p align="center">
     <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-000000?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
@@ -31,11 +30,6 @@
 Este projeto é uma **experiência web imersiva e narrativa** que reconta a lore de *Dark Souls*. Muito além de um site estático, trata-se de um estudo de caso em **UI/UX temática**, onde cada elemento visual foi desenhado para transportar o usuário para dentro do universo sombrio de Lordran.
 
 O objetivo principal foi criar uma interface que simula a leitura de um **tomo antigo** ou um **menu de jogo**, utilizando navegação paginada, tipografia clássica e um tratamento de imagem monocromático de alto contraste.
-
-<div align="center">
-  <!-- Se você tiver um GIF do site funcionando, coloque aqui. Senão, pode remover esta linha -->
-  <img src="https://raw.githubusercontent.com/seu-usuario/dark-souls-historia/main/assets/preview.gif" alt="Preview do Projeto" width="800px" />
-</div>
 
 ---
 
